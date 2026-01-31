@@ -1,14 +1,14 @@
 # 🌿 EcoTrip – Calculadora de Pegada de Carbono de Viagens
 
-Aplicação web que estima as emissões de CO₂ de uma viagem com base em origem, destino, meio de transporte e número de passageiros, ajudando o usuário a planejar deslocamentos mais sustentáveis. [page:2][page:3]
+Aplicação web que estima as emissões de CO₂ de uma viagem com base em origem, destino, meio de transporte e número de passageiros, ajudando o usuário a planejar deslocamentos mais sustentáveis. 
 
 ---
 
 ## 🎯 Objetivo do Projeto
 
-A **EcoTrip** tem como objetivo conscientizar sobre o impacto ambiental de viagens, permitindo comparar diferentes meios de transporte e entender como escolhas de mobilidade afetam a pegada de carbono. [page:3]
+A **EcoTrip** tem como objetivo conscientizar sobre o impacto ambiental de viagens, permitindo comparar diferentes meios de transporte e entender como escolhas de mobilidade afetam a pegada de carbono.
 
-O projeto foi desenvolvido no contexto do curso/bootcamp da DIO, com foco em prática de HTML, CSS e JavaScript, além do uso do GitHub Copilot na escrita de código e na produtividade. [page:2]
+O projeto foi desenvolvido no contexto do curso/bootcamp da DIO, com foco em prática de HTML, CSS e JavaScript, além do uso do GitHub Copilot na escrita de código e na produtividade. 
 
 ---
 
@@ -16,29 +16,27 @@ O projeto foi desenvolvido no contexto do curso/bootcamp da DIO, com foco em pr�
 
 A aplicação é totalmente front-end, executada diretamente no navegador:
 
-- **HTML5** – Estrutura da página da calculadora (formulário, selects de origem/destino, transporte e campo de passageiros). [page:3]
-- **CSS3** – Estilização da interface (layout, tipografia, responsividade). [page:1]
-- **JavaScript (ES6+)** – Lógica de cálculo de pegada de carbono, manipulação do DOM, preenchimento dinâmico de campos e exibição dos resultados. [page:2]
-- **Git e GitHub** – Controle de versão e hospedagem do código. [page:2]
-- **GitHub Copilot** – Assistente de código utilizado na implementação de funções e estrutura do projeto. [page:2]
+- **HTML5** – Estrutura da página da calculadora (formulário, selects de origem/destino, transporte e campo de passageiros). 
+- **CSS3** – Estilização da interface (layout, tipografia, responsividade). 
+- **JavaScript (ES6+)** – Lógica de cálculo de pegada de carbono, manipulação do DOM, preenchimento dinâmico de campos e exibição dos resultados.
+- **Git e GitHub** – Controle de versão e hospedagem do código.
+- **GitHub Copilot** – Assistente de código utilizado na implementação de funções e estrutura do projeto.
 
 ---
 
 ## 🖥️ Demonstração da Interface
 
-A página principal apresenta: [page:3]
-
+A página principal apresenta: 
 - Título **“EcoTrip – Calculadora de Pegada de Carbono”**.
 - Seção de formulário “Planeje sua Viagem Sustentável”.
 - Campos de **Origem**, **Destino**, **Meio de Transporte** e **Número de Passageiros**.
 - Botão de ação para **“Calcular Pegada”**.
 - Seção “Resultado da Análise” para exibir o impacto da viagem.
-- Rodapé com a assinatura *“Rafaela Pinheiro ♥ Github Copilot”*. [page:3]
----
+- Rodapé com a assinatura *“Rafaela Pinheiro ♥ Github Copilot”*. ---
 
 ## 📂 Estrutura do Repositório
 
-Estrutura geral do projeto: [page:1][page:2]
+Estrutura geral do projeto: 
 
 ```text
 Calculadora_CO2_dio/
@@ -56,8 +54,7 @@ Calculadora_CO2_dio/
 
 ## 🧮 Como Funciona a Calculadora
 
-Na página `index.html`, o usuário encontra um formulário com os seguintes campos: [page:3]
-
+Na página `index.html`, o usuário encontra um formulário com os seguintes campos: 
 - **Origem**
 Select `origin-select` onde o usuário escolhe a cidade de partida.
 - **Destino**
@@ -69,10 +66,8 @@ Opções disponíveis:
     - Carro Elétrico (`carro_eletrico`)
     - Ônibus (`onibus`)
     - Trem (`trem`)
-[page:3]
 - **Número de Passageiros** (`passengers-input`)
-Campo numérico com valor mínimo 1, usado para dividir ou multiplicar a pegada por pessoa, conforme a regra de negócio definida no JavaScript. [page:3]
-- **Botão “Calcular Pegada”**
+Campo numérico com valor mínimo 1, usado para dividir ou multiplicar a pegada por pessoa, conforme a regra de negócio definida no JavaScript. - **Botão “Calcular Pegada”**
 Ao clicar, a lógica JavaScript é acionada para:
     - Obter os valores selecionados/inseridos.
     - Calcular a distância entre origem e destino (fixa ou a partir de uma matriz/tabela de distâncias).
@@ -103,14 +98,12 @@ cd Calculadora_CO2_dio/Carbon_calculator
     - Selecione **Origem** e **Destino**.
     - Escolha um **Meio de Transporte**.
     - Informe o **Número de Passageiros**.
-    - Clique em **“Calcular Pegada”** e veja o resultado na seção “Resultado da Análise”. [page:3]
-
+    - Clique em **“Calcular Pegada”** e veja o resultado na seção “Resultado da Análise”. 
 ---
 
 ## ✅ Requisitos de Acessibilidade
 
-A página utiliza atributos como `aria-label` e `aria-required` nos campos de formulário para melhorar a acessibilidade, especialmente para leitores de tela: [page:3]
-
+A página utiliza atributos como `aria-label` e `aria-required` nos campos de formulário para melhorar a acessibilidade, especialmente para leitores de tela: 
 - `aria-label` em selects e inputs para descrever a função do campo.
 - `required` e `aria-required="true"` para indicar campos obrigatórios.
 - Mensagens de placeholder em selects (`-- Selecione uma cidade de origem --`, etc.) auxiliando o entendimento do usuário.
@@ -169,8 +162,7 @@ Se ainda não escolheu uma licença, você pode criar um arquivo `LICENSE` na ra
 
 ## 👩‍💻 Autora
 
-Projeto desenvolvido por **Rafaela Pinheiro**. [page:2][page:3]
-
+Projeto desenvolvido por **Rafaela Pinheiro**.
 Se este projeto te ajudou ou serviu de inspiração, não esqueça de deixar uma ⭐ no repositório!
 
 
